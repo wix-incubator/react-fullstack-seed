@@ -1,0 +1,9 @@
+$main-bg-color: #00b6ff;
+$main-color: #ffe826;
+
+.main-color {
+  background-color: $main-bg-color;
+  color: $main-color;
+  max-width: 200px;
+  padding: 6px 12px;
+}

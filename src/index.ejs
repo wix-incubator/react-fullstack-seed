@@ -1,0 +1,14 @@
+<!doctype html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link rel="stylesheet" href="<%= staticsBaseUrl %>app.css">
+  </head>
+  <body>
+    <div id="root"></div>
+    <script>
+      window.__BASEURL__ = '<%= baseurl %>';
+    </script>
+    <script src="<%= staticsBaseUrl %>app.bundle.js"></script>
+  </body>
+</html>
