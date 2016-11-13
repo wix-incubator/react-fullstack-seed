@@ -64,7 +64,7 @@ describe('SiteList container component', () => {
   it('should display sites', done => {
     driver.given.siteListValidData()
       .when.created();
-    setTimeout(() => {
+    setTimeout(() => {// TODO: fix
       expect(driver.get.sites().length).to.equal(3);
       expect(driver.get.sites().first().text()).to.equal(driver.get.mockedSites()[0].siteName);
       done();
