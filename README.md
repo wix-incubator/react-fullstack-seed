@@ -1,5 +1,7 @@
 #React Fullstack Seed
 
+[![Build Status](https://travis-ci.org/wix/react-fullstack-seed.svg?branch=master)](https://travis-ci.org/wix/react-fullstack-seed)
+
 This is a basic seed project for react js fullstack applications (work in progress)
 
 ###TBD:
