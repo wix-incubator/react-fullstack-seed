@@ -4,6 +4,32 @@
 
 This is a basic seed project for react js fullstack applications (work in progress)
 
+##installation
+
+Git clone this repository and:
+
+```bash
+npm i
+
+wixclean
+```
+##build
+
+```bash
+npm run build
+```
+##test
+
+```bash
+npm test
+```
+
+##start
+
+```bash
+npm start
+```
+
 ###TBD:
 
 * Add e2e tests
