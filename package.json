@@ -10,9 +10,9 @@
     "url": ""
   },
   "scripts": {
-    "start": "wix-node-build start",
-    "build": "wix-node-build lint && wix-node-build build",
-    "test": "wix-node-build test --mocha",
+    "start": "yoshi start",
+    "build": "yoshi lint && yoshi build",
+    "test": "yoshi test --mocha",
     "release": ":"
   },
   "devDependencies": {
@@ -24,7 +24,7 @@
     "jsdom-global": "^2.1.0",
     "nock": "^8.0.0",
     "react-addons-test-utils": "^15.3.2",
-    "wix-node-build": "latest"
+    "yoshi": "latest"
   },
   "dependencies": {
     "axios": "^0.15.2",

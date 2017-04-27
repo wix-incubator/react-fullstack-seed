@@ -1,7 +1,6 @@
 {
     "version": "0.2.0",
-    "configurations": [
-        {
+    "configurations": [{
             "name": "Launch Mocha",
             "type": "node",
             "request": "launch",
@@ -14,7 +13,7 @@
             "runtimeArgs": [
                 "--nolazy",
                 "--require", "babel-register",
-                "--require", "${workspaceRoot}/node_modules/wix-node-build/lib/ignore-extensions.js"
+                "--require", "${workspaceRoot}/node_modules/yoshi/lib/ignore-extensions.js"
             ],
             "env": {
                 "NODE_ENV": "test"
@@ -28,7 +27,7 @@
             "type": "node",
             "request": "launch",
             "program": "${workspaceRoot}/node_modules/protractor/bin/protractor",
-            "args": ["${workspaceRoot}/node_modules/wix-node-build/config/protractor.conf.js"],
+            "args": ["${workspaceRoot}/node_modules/yoshi/config/protractor.conf.js"],
             "stopOnEntry": false,
             "cwd": "${workspaceRoot}",
             "preLaunchTask": null,
@@ -56,7 +55,7 @@
             "runtimeArgs": [
                 "--nolazy",
                 "--require", "babel-register",
-                "--require", "${workspaceRoot}/node_modules/wix-node-build/lib/ignore-extensions.js"
+                "--require", "${workspaceRoot}/node_modules/yoshi/lib/ignore-extensions.js"
             ],
             "env": {
                 "NODE_ENV": "development",
