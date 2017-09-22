@@ -9,25 +9,25 @@ This is a basic seed project for react js fullstack applications (work in progre
 Git clone this repository and:
 
 ```bash
-npm i
+$ npm i
 
-wixclean
+$ wixclean
 ```
 ## build
 
 ```bash
-npm run build
+$ npm run build
 ```
 ## test
 
 ```bash
-npm test
+$ npm test
 ```
 
 ## start
 
 ```bash
-npm start
+$ npm start
 ```
 
 ### TBD:
