@@ -1,43 +1,43 @@
-#React Fullstack Seed
+# React Fullstack Seed
 
 [![Build Status](https://travis-ci.org/wix/react-fullstack-seed.svg?branch=master)](https://travis-ci.org/wix/react-fullstack-seed)
 
 This is a basic seed project for react js fullstack applications (work in progress)
 
-##installation
+## installation
 
 Git clone this repository and:
 
 ```bash
-npm i
+$ npm i
 
-wixclean
+$ wixclean
 ```
-##build
+## build
 
 ```bash
-npm run build
+$ npm run build
 ```
-##test
+## test
 
 ```bash
-npm test
+$ npm test
 ```
 
-##start
+## start
 
 ```bash
-npm start
+$ npm start
 ```
 
-###TBD:
+### TBD:
 
 * Add e2e tests
 * Add generator
 * Add universal seed
 * Add client only seed
 
-##Features
+## Features
 
 * React
 * Redux
@@ -48,5 +48,5 @@ npm start
 * Component tests using driver pattern
 * Redux Thunk
 * ES6
-* Aync Await
+* Aync/Await
 ...
