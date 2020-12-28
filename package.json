@@ -27,7 +27,7 @@
     "yoshi": "latest"
   },
   "dependencies": {
-    "axios": "^0.15.2",
+    "axios": "^0.21.1",
     "babel-polyfill": "^6.9.1",
     "bluebird": "^3.4.6",
     "ejs": "^2.5.2",
