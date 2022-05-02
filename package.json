@@ -30,7 +30,7 @@
     "axios": "^0.15.2",
     "babel-polyfill": "^6.9.1",
     "bluebird": "^3.4.6",
-    "ejs": "^2.5.2",
+    "ejs": "^3.1.7",
     "es6-promise": "^4.0.5",
     "express": "^4.13.4",
     "react": "^15.3.2",
